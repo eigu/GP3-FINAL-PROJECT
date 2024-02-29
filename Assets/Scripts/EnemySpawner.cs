@@ -21,6 +21,6 @@ public class EnemySpawner : MonoBehaviour
 
     public void Enemyspawn() 
     {
-        Instantiate(Enemy_prefab, new Vector2(7.22f,3.29f),Quaternion.identity);
+        Instantiate(Enemy_prefab, new Vector2(7.22f,3.29f),Quaternion.identity); //Spawns enemies on the gameobj spawner pos
     }
 }
