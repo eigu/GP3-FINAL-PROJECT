@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 90695e7a254126741b53cb4fc448f79a
+guid: d4a01b45b66303840b0bc075238c90f2
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -77,6 +77,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -89,6 +90,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -101,6 +103,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -113,6 +116,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -125,61 +129,20 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Fire_Trap_0
+      name: Spike Trap_16
       rect:
         serializedVersion: 2
-        x: 259
+        x: 258
         y: 0
-        width: 32
-        height: 41
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a266c11950e1cd9488001e3931e08ae3
-      internalID: -2054089788
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Fire_Trap_1
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 32
-        height: 41
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5ca4c31419bfdde49ab19e9322217a54
-      internalID: -1947006841
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Fire_Trap_2
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 0
-        width: 32
-        height: 41
+        width: 28
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,239 +150,281 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f8e2ac1aaad9aff4c807bd8dc7dbf329
-      internalID: -376287367
+      spriteID: fc4805f100da7d14896367a0e28d7827
+      internalID: -1371997283
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire_Trap_3
+      name: Spike Trap_17
       rect:
         serializedVersion: 2
-        x: 286
+        x: 290
         y: 0
-        width: 32
-        height: 41
+        width: 28
+        height: 31
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2700a223a4cb3b14485cd704824a5877
-      internalID: 1646896412
+      spriteID: 8322755acc7375b4e91ca702c3f1e025
+      internalID: -1431760146
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire_Trap_4
-      rect:
-        serializedVersion: 2
-        x: 66
-        y: 0
-        width: 32
-        height: 41
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e013a594d4f21184194f02b0e9990625
-      internalID: 1899132488
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Fire_Trap_5
+      name: Spike Trap_18
       rect:
         serializedVersion: 2
         x: 322
         y: 0
-        width: 32
-        height: 41
+        width: 28
+        height: 31
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: df60b151e3bb73746ac50ab8486150d6
-      internalID: 16287357
+      spriteID: 89bd06ebf3955f741b1d99c3dc5a1168
+      internalID: -117683665
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire_Trap_6
+      name: Spike Trap_19
       rect:
         serializedVersion: 2
         x: 354
         y: 0
-        width: 32
-        height: 41
+        width: 28
+        height: 31
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b1adbedde2779d445ab551d3dadac6e2
-      internalID: -185791851
+      spriteID: bce8c1d4e4b498c44a38530edec0767a
+      internalID: 1688401656
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire_Trap_7
+      name: Spike Trap_24
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 0
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8498b46fc1613344a3ac495aea2c633
+      internalID: 1916401970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spike Trap_25
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 0
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 357d8acd1ccc6684996099002efd4ca0
+      internalID: -478530215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spike Trap_26
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 0
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56bc78f999a2dae419fcf6f8d622b66c
+      internalID: -543797416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spike Trap_27
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 0
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c0d24b39e9e51541a04e1dedffc826c
+      internalID: 299083732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spike Trap_28
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 0
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd53a033e1023fe4a8eb23303e1aa30c
+      internalID: 385507555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spike Trap_29
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 0
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 758c90848ed480248acbe3617dbfca87
+      internalID: 1825315220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spike Trap_30
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 0
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c4ebd94377243341b23a61102f5e922
+      internalID: 462607566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spike Trap_48
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 0
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d90789af30336e94eaa16c36ec33afc1
+      internalID: -2107068638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spike Trap_50
       rect:
         serializedVersion: 2
         x: 386
         y: 0
-        width: 32
-        height: 41
+        width: 28
+        height: 31
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 79c46bbc75c1cf547b2ee0926ffb8aa0
-      internalID: 822561481
+      spriteID: e7812e1998b985f4484dc9187b096c62
+      internalID: -471885108
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire_Trap_8
+      name: Spike Trap_52
       rect:
         serializedVersion: 2
-        x: 417
+        x: 418
         y: 0
-        width: 31
-        height: 41
+        width: 28
+        height: 31
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 88730ff4ab50a0b4ab53fe25fe966805
-      internalID: 153489599
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Fire_Trap_9
-      rect:
-        serializedVersion: 2
-        x: 95
-        y: 0
-        width: 32
-        height: 41
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c7f8b943e09ee1b47896a665c618abd0
-      internalID: -424508715
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Fire_Trap_10
-      rect:
-        serializedVersion: 2
-        x: 129
-        y: 0
-        width: 32
-        height: 41
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 56b5f2d0aab38694b98f1f14484b346b
-      internalID: -1901785600
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Fire_Trap_11
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 0
-        width: 32
-        height: 41
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9a0ee7152bde23c48b4b62ecb7399b15
-      internalID: 641096604
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Fire_Trap_12
-      rect:
-        serializedVersion: 2
-        x: 193
-        y: 0
-        width: 32
-        height: 41
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a67028ed9c7c64144b35b32348d6b0f5
-      internalID: -1864427557
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Fire_Trap_13
-      rect:
-        serializedVersion: 2
-        x: 223
-        y: 0
-        width: 32
-        height: 41
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 88837a473b5798d44b79588f794d136f
-      internalID: -2114076488
+      spriteID: 5e17ac882f17b6c4c9b841ecca7d6069
+      internalID: -847283325
       vertices: []
       indices: 
       edges: []
@@ -435,71 +440,60 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Fire_Trap_53: 1066552594
-      Fire_Trap_63: 97910952
-      Fire_Trap_13: -2114076488
-      Fire_Trap_6: -185791851
-      Fire_Trap_4: 1899132488
-      Fire_Trap_44: 493243913
-      Fire_Trap_8: 153489599
-      Fire_Trap_46: -666315265
-      Fire_Trap_3: 1646896412
-      Fire_Trap_0: -2054089788
-      Fire_Trap_9: -424508715
-      Fire_Trap_2: -376287367
-      Fire_Trap_36: -436391464
-      Fire_Trap_31: -313022250
-      Fire_Trap_7: 822561481
-      Fire_Trap_50: -1724743018
-      Fire_Trap_14: 1824284608
-      Fire_Trap_42: -1682164034
-      Fire_Trap_51: -2046972896
-      Fire_Trap_55: -787392536
-      Fire_Trap_18: -1581931826
-      Fire_Trap_39: -959575549
-      Fire_Trap_17: 1876744689
-      Fire_Trap_16: -1572727126
-      Fire_Trap_43: -724678106
-      Fire_Trap_56: 1983218462
-      Fire_Trap_37: -1388104290
-      Fire_Trap_28: -1842518703
-      Fire_Trap_52: -246512007
-      Fire_Trap_20: 1991446160
-      Fire_Trap_26: -1244287462
-      Fire_Trap_38: -1444472208
-      Fire_Trap_11: 641096604
-      Fire_Trap_64: -1554831049
-      Fire_Trap_49: -1019732458
-      Fire_Trap_33: -1296721617
-      Fire_Trap_60: 986794126
-      Fire_Trap_19: 1436675905
-      Fire_Trap_10: -1901785600
-      Fire_Trap_12: -1864427557
-      Fire_Trap_48: 261395517
-      Fire_Trap_21: 2134526255
-      Fire_Trap_41: 502254959
-      Fire_Trap_15: -366024856
-      Fire_Trap_34: -165972153
-      Fire_Trap_58: -1748503040
-      Fire_Trap_47: -1904021329
-      Fire_Trap_5: 16287357
-      Fire_Trap_57: 1903454145
-      Fire_Trap_32: -982943689
-      Fire_Trap_62: 1919836682
-      Fire_Trap_40: -20264801
-      Fire_Trap_24: -1456815914
-      Fire_Trap_1: -1947006841
-      Fire_Trap_59: 1968441072
-      Fire_Trap_61: 1872087214
-      Fire_Trap_25: -1561823752
-      Fire_Trap_54: -1326028593
-      Fire_Trap_23: -1035323905
-      Fire_Trap_29: -773105449
-      Fire_Trap_27: -1940293228
-      Fire_Trap_22: 1492985158
-      Fire_Trap_30: -171099749
-      Fire_Trap_35: 194861591
-      Fire_Trap_45: -505220003
+      Spike Trap_0: -516072466
+      Spike Trap_1: -263498703
+      Spike Trap_10: -1061740669
+      Spike Trap_11: -1981766375
+      Spike Trap_12: 1293361799
+      Spike Trap_13: -1280429938
+      Spike Trap_14: 789965955
+      Spike Trap_15: -1621591208
+      Spike Trap_16: -1371997283
+      Spike Trap_17: -1431760146
+      Spike Trap_18: -117683665
+      Spike Trap_19: 1688401656
+      Spike Trap_2: -423998212
+      Spike Trap_20: -6673742
+      Spike Trap_21: 1986980767
+      Spike Trap_22: 334679244
+      Spike Trap_23: 480470757
+      Spike Trap_24: 1916401970
+      Spike Trap_25: -478530215
+      Spike Trap_26: -543797416
+      Spike Trap_27: 299083732
+      Spike Trap_28: 385507555
+      Spike Trap_29: 1825315220
+      Spike Trap_3: 1113365992
+      Spike Trap_30: 462607566
+      Spike Trap_31: -424615319
+      Spike Trap_32: 1878845320
+      Spike Trap_33: -505843220
+      Spike Trap_34: -741568271
+      Spike Trap_35: 2110826237
+      Spike Trap_36: 188663644
+      Spike Trap_37: -1555240545
+      Spike Trap_38: -1005080287
+      Spike Trap_39: 45734700
+      Spike Trap_4: -1988131127
+      Spike Trap_40: 1421273360
+      Spike Trap_41: -1128725101
+      Spike Trap_42: -774248027
+      Spike Trap_43: 1090819917
+      Spike Trap_44: 937458037
+      Spike Trap_45: -744048919
+      Spike Trap_46: -94937502
+      Spike Trap_47: 1525685985
+      Spike Trap_48: -2107068638
+      Spike Trap_49: -1897583744
+      Spike Trap_5: 601567550
+      Spike Trap_50: -471885108
+      Spike Trap_51: 130735422
+      Spike Trap_52: -847283325
+      Spike Trap_53: 1361255173
+      Spike Trap_6: 1603488930
+      Spike Trap_7: -641394109
+      Spike Trap_8: -55631425
+      Spike Trap_9: 139030874
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

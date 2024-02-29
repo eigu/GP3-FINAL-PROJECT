@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: d4a01b45b66303840b0bc075238c90f2
+guid: 414b45b0df642dd4090b4ebd4bf70fe7
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -77,6 +77,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -89,6 +90,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -101,6 +103,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -113,6 +116,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -125,19 +129,20 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Spike Trap_16
+      name: Push_Trap_Front_0
       rect:
         serializedVersion: 2
-        x: 258
+        x: 0
         y: 0
-        width: 28
-        height: 31
+        width: 36
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,20 +150,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fc4805f100da7d14896367a0e28d7827
-      internalID: -1371997283
+      spriteID: 81f9d0f2f48896b4f8b498617a7d145a
+      internalID: 119036563
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spike Trap_17
+      name: Push_Trap_Front_1
       rect:
         serializedVersion: 2
-        x: 290
+        x: 33
         y: 0
-        width: 28
-        height: 31
+        width: 36
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,20 +171,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8322755acc7375b4e91ca702c3f1e025
-      internalID: -1431760146
+      spriteID: c2f43b6d6b5e66b4c91301aa22c5e0eb
+      internalID: -1367015900
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spike Trap_18
+      name: Push_Trap_Front_2
       rect:
         serializedVersion: 2
-        x: 322
+        x: 64
         y: 0
-        width: 28
-        height: 31
+        width: 36
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,20 +192,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 89bd06ebf3955f741b1d99c3dc5a1168
-      internalID: -117683665
+      spriteID: 7274ce9b7d8ceaa47a83900a05284cfa
+      internalID: -1614903153
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spike Trap_19
+      name: Push_Trap_Front_3
       rect:
         serializedVersion: 2
-        x: 354
+        x: 95
         y: 0
-        width: 28
-        height: 31
+        width: 36
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -208,20 +213,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bce8c1d4e4b498c44a38530edec0767a
-      internalID: 1688401656
+      spriteID: b354b6d5b27d34245b578451302572f4
+      internalID: -1261773890
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spike Trap_24
+      name: Push_Trap_Front_4
       rect:
         serializedVersion: 2
-        x: 2
+        x: 129
         y: 0
-        width: 28
-        height: 31
+        width: 36
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -229,20 +234,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f8498b46fc1613344a3ac495aea2c633
-      internalID: 1916401970
+      spriteID: 78ed94baaa6d6634fa341c293a2bee51
+      internalID: 387422793
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spike Trap_25
+      name: Push_Trap_Front_5
       rect:
         serializedVersion: 2
-        x: 34
+        x: 160
         y: 0
-        width: 28
-        height: 31
+        width: 36
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -250,20 +255,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 357d8acd1ccc6684996099002efd4ca0
-      internalID: -478530215
+      spriteID: 4ce627e4108c38d4cbfc89aad33ea9dd
+      internalID: -550533804
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spike Trap_26
+      name: Push_Trap_Front_6
       rect:
         serializedVersion: 2
-        x: 66
+        x: 192
         y: 0
-        width: 28
-        height: 31
+        width: 36
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -271,20 +276,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 56bc78f999a2dae419fcf6f8d622b66c
-      internalID: -543797416
+      spriteID: 8722f5a60ac9c9b42b53460f4d533bf5
+      internalID: -1810313418
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spike Trap_27
+      name: Push_Trap_Front_7
       rect:
         serializedVersion: 2
-        x: 98
+        x: 223
         y: 0
-        width: 28
-        height: 31
+        width: 36
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -292,20 +297,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9c0d24b39e9e51541a04e1dedffc826c
-      internalID: 299083732
+      spriteID: 5c2987086d8f4b1408d3507cfc69188f
+      internalID: -2046655712
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spike Trap_28
+      name: Push_Trap_Front_8
       rect:
         serializedVersion: 2
-        x: 130
+        x: 254
         y: 0
-        width: 28
-        height: 31
+        width: 34
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -313,20 +318,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cd53a033e1023fe4a8eb23303e1aa30c
-      internalID: 385507555
+      spriteID: f126c3992d41ee64f982ad8b2f4fc69e
+      internalID: 1552752216
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spike Trap_29
+      name: Push_Trap_Front_9
       rect:
         serializedVersion: 2
-        x: 162
+        x: 288
         y: 0
-        width: 28
-        height: 31
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -334,20 +339,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 758c90848ed480248acbe3617dbfca87
-      internalID: 1825315220
+      spriteID: 203b3d66937674c42b71826571143eeb
+      internalID: -305958170
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spike Trap_30
+      name: Push_Trap_Front_10
       rect:
         serializedVersion: 2
-        x: 194
+        x: 320
         y: 0
-        width: 28
-        height: 31
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -355,71 +360,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c4ebd94377243341b23a61102f5e922
-      internalID: 462607566
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Spike Trap_48
-      rect:
-        serializedVersion: 2
-        x: 226
-        y: 0
-        width: 28
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d90789af30336e94eaa16c36ec33afc1
-      internalID: -2107068638
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Spike Trap_50
-      rect:
-        serializedVersion: 2
-        x: 386
-        y: 0
-        width: 28
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e7812e1998b985f4484dc9187b096c62
-      internalID: -471885108
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Spike Trap_52
-      rect:
-        serializedVersion: 2
-        x: 418
-        y: 0
-        width: 28
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5e17ac882f17b6c4c9b841ecca7d6069
-      internalID: -847283325
+      spriteID: 8da84993016cac04d8f433f7ecbe3e78
+      internalID: -1170946353
       vertices: []
       indices: 
       edges: []
@@ -435,60 +377,17 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Spike Trap_44: 937458037
-      Spike Trap_41: -1128725101
-      Spike Trap_3: 1113365992
-      Spike Trap_47: 1525685985
-      Spike Trap_52: -847283325
-      Spike Trap_42: -774248027
-      Spike Trap_12: 1293361799
-      Spike Trap_6: 1603488930
-      Spike Trap_36: 188663644
-      Spike Trap_7: -641394109
-      Spike Trap_13: -1280429938
-      Spike Trap_18: -117683665
-      Spike Trap_26: -543797416
-      Spike Trap_51: 130735422
-      Spike Trap_14: 789965955
-      Spike Trap_23: 480470757
-      Spike Trap_27: 299083732
-      Spike Trap_11: -1981766375
-      Spike Trap_33: -505843220
-      Spike Trap_8: -55631425
-      Spike Trap_30: 462607566
-      Spike Trap_32: 1878845320
-      Spike Trap_2: -423998212
-      Spike Trap_31: -424615319
-      Spike Trap_46: -94937502
-      Spike Trap_20: -6673742
-      Spike Trap_10: -1061740669
-      Spike Trap_24: 1916401970
-      Spike Trap_39: 45734700
-      Spike Trap_43: 1090819917
-      Spike Trap_38: -1005080287
-      Spike Trap_53: 1361255173
-      Spike Trap_16: -1371997283
-      Spike Trap_5: 601567550
-      Spike Trap_1: -263498703
-      Spike Trap_29: 1825315220
-      Spike Trap_40: 1421273360
-      Spike Trap_35: 2110826237
-      Spike Trap_22: 334679244
-      Spike Trap_25: -478530215
-      Spike Trap_9: 139030874
-      Spike Trap_19: 1688401656
-      Spike Trap_49: -1897583744
-      Spike Trap_17: -1431760146
-      Spike Trap_45: -744048919
-      Spike Trap_50: -471885108
-      Spike Trap_34: -741568271
-      Spike Trap_15: -1621591208
-      Spike Trap_28: 385507555
-      Spike Trap_37: -1555240545
-      Spike Trap_48: -2107068638
-      Spike Trap_0: -516072466
-      Spike Trap_21: 1986980767
-      Spike Trap_4: -1988131127
+      Push_Trap_Front_0: 119036563
+      Push_Trap_Front_1: -1367015900
+      Push_Trap_Front_10: -1170946353
+      Push_Trap_Front_2: -1614903153
+      Push_Trap_Front_3: -1261773890
+      Push_Trap_Front_4: 387422793
+      Push_Trap_Front_5: -550533804
+      Push_Trap_Front_6: -1810313418
+      Push_Trap_Front_7: -2046655712
+      Push_Trap_Front_8: 1552752216
+      Push_Trap_Front_9: -305958170
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
