@@ -77,6 +77,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -89,6 +90,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -101,6 +103,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -113,6 +116,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -125,6 +129,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -435,60 +440,60 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Spike Trap_44: 937458037
-      Spike Trap_41: -1128725101
-      Spike Trap_3: 1113365992
-      Spike Trap_47: 1525685985
-      Spike Trap_52: -847283325
-      Spike Trap_42: -774248027
-      Spike Trap_12: 1293361799
-      Spike Trap_6: 1603488930
-      Spike Trap_36: 188663644
-      Spike Trap_7: -641394109
-      Spike Trap_13: -1280429938
-      Spike Trap_18: -117683665
-      Spike Trap_26: -543797416
-      Spike Trap_51: 130735422
-      Spike Trap_14: 789965955
-      Spike Trap_23: 480470757
-      Spike Trap_27: 299083732
-      Spike Trap_11: -1981766375
-      Spike Trap_33: -505843220
-      Spike Trap_8: -55631425
-      Spike Trap_30: 462607566
-      Spike Trap_32: 1878845320
-      Spike Trap_2: -423998212
-      Spike Trap_31: -424615319
-      Spike Trap_46: -94937502
-      Spike Trap_20: -6673742
-      Spike Trap_10: -1061740669
-      Spike Trap_24: 1916401970
-      Spike Trap_39: 45734700
-      Spike Trap_43: 1090819917
-      Spike Trap_38: -1005080287
-      Spike Trap_53: 1361255173
-      Spike Trap_16: -1371997283
-      Spike Trap_5: 601567550
-      Spike Trap_1: -263498703
-      Spike Trap_29: 1825315220
-      Spike Trap_40: 1421273360
-      Spike Trap_35: 2110826237
-      Spike Trap_22: 334679244
-      Spike Trap_25: -478530215
-      Spike Trap_9: 139030874
-      Spike Trap_19: 1688401656
-      Spike Trap_49: -1897583744
-      Spike Trap_17: -1431760146
-      Spike Trap_45: -744048919
-      Spike Trap_50: -471885108
-      Spike Trap_34: -741568271
-      Spike Trap_15: -1621591208
-      Spike Trap_28: 385507555
-      Spike Trap_37: -1555240545
-      Spike Trap_48: -2107068638
       Spike Trap_0: -516072466
+      Spike Trap_1: -263498703
+      Spike Trap_10: -1061740669
+      Spike Trap_11: -1981766375
+      Spike Trap_12: 1293361799
+      Spike Trap_13: -1280429938
+      Spike Trap_14: 789965955
+      Spike Trap_15: -1621591208
+      Spike Trap_16: -1371997283
+      Spike Trap_17: -1431760146
+      Spike Trap_18: -117683665
+      Spike Trap_19: 1688401656
+      Spike Trap_2: -423998212
+      Spike Trap_20: -6673742
       Spike Trap_21: 1986980767
+      Spike Trap_22: 334679244
+      Spike Trap_23: 480470757
+      Spike Trap_24: 1916401970
+      Spike Trap_25: -478530215
+      Spike Trap_26: -543797416
+      Spike Trap_27: 299083732
+      Spike Trap_28: 385507555
+      Spike Trap_29: 1825315220
+      Spike Trap_3: 1113365992
+      Spike Trap_30: 462607566
+      Spike Trap_31: -424615319
+      Spike Trap_32: 1878845320
+      Spike Trap_33: -505843220
+      Spike Trap_34: -741568271
+      Spike Trap_35: 2110826237
+      Spike Trap_36: 188663644
+      Spike Trap_37: -1555240545
+      Spike Trap_38: -1005080287
+      Spike Trap_39: 45734700
       Spike Trap_4: -1988131127
+      Spike Trap_40: 1421273360
+      Spike Trap_41: -1128725101
+      Spike Trap_42: -774248027
+      Spike Trap_43: 1090819917
+      Spike Trap_44: 937458037
+      Spike Trap_45: -744048919
+      Spike Trap_46: -94937502
+      Spike Trap_47: 1525685985
+      Spike Trap_48: -2107068638
+      Spike Trap_49: -1897583744
+      Spike Trap_5: 601567550
+      Spike Trap_50: -471885108
+      Spike Trap_51: 130735422
+      Spike Trap_52: -847283325
+      Spike Trap_53: 1361255173
+      Spike Trap_6: 1603488930
+      Spike Trap_7: -641394109
+      Spike Trap_8: -55631425
+      Spike Trap_9: 139030874
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

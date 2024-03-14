@@ -1,40 +1,74 @@
-using System;
-using TMPro;
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
+using UnityEditor.Experimental.GraphView;
 
 public class Timer : MonoBehaviour
 {
-    public float TimerRemaining = 60; // Corrected variable name
-    public bool TimeIsRunning = true; // Corrected variable name
-    public TMP_Text timeText;
+    [SerializeField] TextMeshProUGUI timerText;
+    [SerializeField] float remainingTime;
+    [SerializeField] int Kills;
+    [SerializeField] TextMeshProUGUI KillCounter;
+    [SerializeField] float AdditionalTimeMilestone = 10f;
+    [SerializeField] float AdditionalTimePerKill = 5f;
+    [SerializeField] float AdditionalTimerPerBossKill = 30f;
 
+
+    // Start is called before the first frame update
     void Start()
     {
-        TimeIsRunning = true;
+        remainingTime = 120; // Start with 2 minutes
+        Kills = 0;
+        UpdateTimerDisplay();
+        UpdateKillCounter();
     }
 
+    // Update is called once per frame
     void Update()
     {
-        if (TimeIsRunning)
+        if (remainingTime > 0)
         {
-            if (TimerRemaining > 0) // Changed condition to check if timer is greater than 0
-            {
-                TimerRemaining -= Time.deltaTime; // Corrected decrement
-                DisplayTime(TimerRemaining);
-            }
-            else
-            {
-                TimeIsRunning = false; // Stop the timer when it reaches 0
-                TimerRemaining = 0; // Ensure the timer doesn't go negative
-                DisplayTime(TimerRemaining);
-            }
+            remainingTime -= Time.deltaTime;
+
         }
+        else if (remainingTime < 0) 
+        {
+            remainingTime = 0;
+            timerText.color = Color.red;
+        }
+        int minutes = Mathf.FloorToInt(remainingTime / 60);
+        int seconds = Mathf.FloorToInt(remainingTime % 60);
+        timerText.text = string.Format("{0:00}:{1:00}", minutes, seconds);
+        UpdateTimerDisplay();
+    }
+    void UpdateTimerDisplay()
+    {
+        int minutes = Mathf.FloorToInt(remainingTime / 60);
+        int seconds = Mathf.FloorToInt(remainingTime % 60);
+        timerText.text = string.Format("{0:00}:{1:00}", minutes, seconds);
     }
 
-    void DisplayTime(float timeToDisplay)
+    // Method to update the kill counter display
+    void UpdateKillCounter()
     {
-        float minutes = Mathf.FloorToInt(timeToDisplay / 60);
-        float seconds = Mathf.FloorToInt(timeToDisplay % 60);
-        timeText.text = string.Format("{0:00}:{1:00}", minutes, seconds); // Corrected formatting
+        KillCounter.text = Kills.ToString();
+
+    }
+    public void AddKill(GameObject enemy)
+    {
+        Kills++;
+        remainingTime += AdditionalTimePerKill;
+        // Check if the player has killed exactly 30 enemies
+        if (Kills == 30)
+        {
+            // Add additional time to the timer
+            remainingTime += AdditionalTimeMilestone;
+        }
+        if (enemy.CompareTag("Boss")) 
+        {
+            remainingTime += AdditionalTimerPerBossKill;
+        }
+        UpdateKillCounter();
     }
 }

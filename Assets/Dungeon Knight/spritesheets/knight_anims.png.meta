@@ -203,6 +203,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -215,6 +216,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -227,6 +229,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -239,6 +242,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -251,6 +255,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -1149,48 +1154,48 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      knight_anims_13: 21300026
-      knight_anims_27: 21300054
-      knight_anims_22: 21300044
-      knight_anims_29: 21300058
-      knight_anims_37: 21300074
-      knight_anims_41: 21300082
-      knight_anims_14: 21300028
-      knight_anims_6: 21300012
-      knight_anims_40: 21300080
-      knight_anims_7: 21300014
-      knight_anims_21: 21300042
-      knight_anims_26: 21300052
-      knight_anims_5: 21300010
       knight_anims_0: 21300000
-      knight_anims_24: 21300048
-      knight_anims_15: 21300030
-      knight_anims_23: 21300046
-      knight_anims_3: 21300006
       knight_anims_1: 21300002
-      knight_anims_28: 21300056
-      knight_anims_39: 21300078
-      knight_anims_36: 21300072
-      knight_anims_20: 21300040
-      knight_anims_8: 21300016
-      knight_anims_12: 21300024
-      knight_anims_30: 21300060
-      knight_anims_2: 21300004
-      knight_anims_19: 21300038
-      knight_anims_38: 21300076
-      knight_anims_17: 21300034
-      knight_anims_31: 21300062
-      knight_anims_25: 21300050
-      knight_anims_16: 21300032
       knight_anims_10: 21300020
-      knight_anims_35: 21300070
-      knight_anims_18: 21300036
-      knight_anims_9: 21300018
       knight_anims_11: 21300022
+      knight_anims_12: 21300024
+      knight_anims_13: 21300026
+      knight_anims_14: 21300028
+      knight_anims_15: 21300030
+      knight_anims_16: 21300032
+      knight_anims_17: 21300034
+      knight_anims_18: 21300036
+      knight_anims_19: 21300038
+      knight_anims_2: 21300004
+      knight_anims_20: 21300040
+      knight_anims_21: 21300042
+      knight_anims_22: 21300044
+      knight_anims_23: 21300046
+      knight_anims_24: 21300048
+      knight_anims_25: 21300050
+      knight_anims_26: 21300052
+      knight_anims_27: 21300054
+      knight_anims_28: 21300056
+      knight_anims_29: 21300058
+      knight_anims_3: 21300006
+      knight_anims_30: 21300060
+      knight_anims_31: 21300062
       knight_anims_32: 21300064
-      knight_anims_4: 21300008
       knight_anims_33: 21300066
       knight_anims_34: 21300068
+      knight_anims_35: 21300070
+      knight_anims_36: 21300072
+      knight_anims_37: 21300074
+      knight_anims_38: 21300076
+      knight_anims_39: 21300078
+      knight_anims_4: 21300008
+      knight_anims_40: 21300080
+      knight_anims_41: 21300082
+      knight_anims_5: 21300010
+      knight_anims_6: 21300012
+      knight_anims_7: 21300014
+      knight_anims_8: 21300016
+      knight_anims_9: 21300018
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

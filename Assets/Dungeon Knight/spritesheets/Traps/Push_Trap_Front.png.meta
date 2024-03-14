@@ -77,6 +77,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -89,6 +90,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -101,6 +103,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -113,6 +116,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -125,6 +129,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -372,16 +377,16 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      Push_Trap_Front_0: 119036563
       Push_Trap_Front_1: -1367015900
+      Push_Trap_Front_10: -1170946353
+      Push_Trap_Front_2: -1614903153
+      Push_Trap_Front_3: -1261773890
       Push_Trap_Front_4: 387422793
+      Push_Trap_Front_5: -550533804
       Push_Trap_Front_6: -1810313418
       Push_Trap_Front_7: -2046655712
       Push_Trap_Front_8: 1552752216
-      Push_Trap_Front_5: -550533804
-      Push_Trap_Front_3: -1261773890
-      Push_Trap_Front_0: 119036563
-      Push_Trap_Front_10: -1170946353
-      Push_Trap_Front_2: -1614903153
       Push_Trap_Front_9: -305958170
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
