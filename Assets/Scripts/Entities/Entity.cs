@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class Entity : MonoBehaviour
@@ -5,10 +6,12 @@ public class Entity : MonoBehaviour
     #region HP
     [SerializeField, Range(0, 100)] protected int _maxHP;
     [SerializeField] protected int _currentHP;
-    public int CurrentHP
+    protected int _update; public int update; // edit later
+
+public int CurrentHP
     {
         get { return _maxHP; }
-        set { _currentHP = value; }
+        set { _currentHP = update; }
     }
     #endregion
 
@@ -41,4 +44,31 @@ public class Entity : MonoBehaviour
         set { _currentDEF = value; }
     }
     #endregion
+
+    public int GetDamageFactor()
+    {
+        //if conditions for equpped
+        return CurrentATK;
+    }
+
+    public int GetDefenseFactor()
+    {
+        //if conditions for equpped
+        return CurrentDEF;
+    }
+
+    private void Awake()
+    {
+        update = CurrentHP;
+    }
+    public void TakeDamage(int damage)
+    {
+        CurrentHP -= damage;
+        update = CurrentHP - damage;
+       
+    }
+
+  
+
+ 
 }

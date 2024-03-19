@@ -1,42 +1,39 @@
+using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
+
 public class PlayerAttack : MonoBehaviour
 {
-    private Animator m_anim;
+    public bool attacked;
+    public AttackPatterns attackPatterns;
+    bool playerAttackStatus;
+    public Animator enemy;
 
-    private bool isAttacking = false;
+    public Combat combat;
+    public Player playerEn;
+    public Enemy enemyEn;
 
-    private void Awake()
+    private void Start()
     {
-        m_anim = GetComponent<Animator>();
+       playerAttackStatus  = attackPatterns.isAttackingOut;
+    }
+    void Update()
+    {
+        playerAttackStatus = attackPatterns.isAttackingOut;
+    
     }
 
-    private void FixedUpdate()
+   
+
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        if (Keyboard.current.jKey.isPressed)
+        if (other.CompareTag("Enemy") && playerAttackStatus == true)
         {
-            Attacking();
+            attacked = true;
+   
         }
-        else
-        {
-            NotAttacking();
-        }
-    }
 
-    // move this to an animation controller -jay
-    // only implement hp modifiier logic here (ie: damage)
-    #region AnimationLogic
-    private void Attacking()
-    {
-        isAttacking = true;
-        m_anim.SetBool("IsAttacking", isAttacking);
-    }
 
-    private void NotAttacking()
-    {
-        isAttacking = false;
-        m_anim.SetBool("IsAttacking", isAttacking);
     }
-    #endregion
 }
